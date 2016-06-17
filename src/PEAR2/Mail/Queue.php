@@ -192,7 +192,7 @@ class Queue
         if (!class_exists($container_class)) {
             throw new Exception(
                 "Unknown container '$container_type'",
-                selfg::ERROR_UNKNOWN_CONTAINER
+                self::ERROR_UNKNOWN_CONTAINER
             );
         }
 
